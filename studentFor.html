@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <style>
+      body{
+        background-image: url(anand_9749.png.jpg);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-position: center;
+        background-size: 10vw 10hw;
+      }
+    </style>
+    <style>
+        lable{
+            color: cadetblue;
+        }
+        input[type="text"],input[type="number"]{
+          color: brown;
+          border: 1px solid rgb(235, 4, 8);
+          border-radius:20px;
+          width: 200px;
+          height:26px ;
+          text-transform: capitalize;
+        }  
+        
+       
+    </style>
+  </head>
+
+  <body>
+   
+    <h3>Student Registration Form</h3>
+    <form>
+      <table>
+        <tbody>
+          <tr>
+            <td><lable> First Name</lable></td>
+            <td>
+              <input type="text"
+                placeholder="Capital letter "
+                required
+                autofocus
+                maxlength="8"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><lable>Last Name</lable></td>
+            <td><input type="text" /></td>
+          </tr>
+
+          <tr>
+            <td><lable>Age</lable></td>
+            <td><input type="number" value="25" /></td>
+          </tr>
+          <tr>
+            <td><lable>State</lable></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><lable>Qulification</lable></td>
+            <td><input type="text"  value="B.E."></td>
+          </tr>
+          <tr>
+            <td><lable>Categari</lable></td>
+            <td><input type="text"  value="SC,OBC,OPEN"></td>
+          
+            <tr>
+              <td> <lable> Mobile Number</lable> </td>
+              <td> <input type="number" placeholder="Max 10 digits">  </td>
+            </tr>
+  <tr>
+<td><lable> Date Of Birth</lable></td>
+<td> <input type="date"> </td>
+<tr>
+  <td><lable> Available in week</lable></td>
+  <td> <input type="week"></td>
+</tr>
+
+<tr>
+  <td><lable> Available in time</lable></td>
+  <td> <input type="time"></td>
+</tr>
+<tr>
+  <td><lable>Profile Photo</lable></td>
+  <td> <input type="file"></td>
+</tr>
+<tr>
+  <td> <lable> Graduation</lable></td>
+  <td>
+    <select>
+      <option> BE</option>
+      <option> MCA</option>
+      <option> B.Sc</option>
+      <option> B.Tech</option>
+      <option> M.sc</option>
+    </select>
+  </td>
+</tr>
+<td><lable> Select Gender</lable> </td>
+<td>
+  <input type="radio" name="gender"><lable> male</lable>
+  <input type="radio" name="gender"><lable> female</lable>
+  <input type="radio" name="gender"><lable> others</lable>
+  </td
+>tr>
+<tr> 
+  <td> <lable> Select Training </lable> </td>
+  <td> 
+     <input type="checkbox"> <label> Angular </label>
+     <input type="checkbox"> <label> React </label>
+     <input type="checkbox"> <label> Java </label>
+     <input type="checkbox"> <label> Data Science </label>
+     <input type="checkbox"> <label> Manual + Automation Testing </label>
+  </td>
+</tr>
+
+<tr>
+  <td> <lable>Upload marksheet</lable></td>
+  <td> <input type="file" multiple></td>
+</tr>
+
+  </tr>
+            <tr>
+              <td><lable>Gmail</lable></td>
+              <td><input type="text"  placeholder=andysonawane@gmail.com></td>
+            </tr>
+
+            
+            <tr>
+              <td> <lable> Password </lable> </td>
+              <td> <input type="password">  </td>
+            </tr>
+  
+            <tr>
+              <td> <lable> Present Address </lable> </td>
+              <td> <textarea rows="7" cols="40">  </textarea> </td>
+            </tr>
+            <tr>
+            <td><input type="submit"></td>
+            <td><input type="reset"></td>
+          </tr>
+
+          
+
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
